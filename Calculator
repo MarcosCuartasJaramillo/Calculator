@@ -1,0 +1,26 @@
+while True:
+  number1 = float(input("Enter first number: "))
+  number2 = float(input("Enter second number: "))
+  operator = input("Enter the operator: ")
+
+  if operator == 'break':
+    break
+
+  if operator == "+":
+    answer = number1 + number2
+  elif operator == "-":
+    answer = number1 - number2
+  elif operator == "*":
+    answer = number1 * number2
+  elif operator == "/":
+    answer = number1 / number2
+  elif operator == "//":
+    answer = number1 // number2
+  elif operator == "**":
+    answer = number1 ** number2
+  elif operator == "%":
+    answer = number1 % number2
+  else:
+    print('Invalid operator:',operator)
+
+  print('Result:',answer)
